@@ -18,7 +18,7 @@ class GetVersions
         }
 
         try {
-            Artisan::call('composer:info tightenco/ziggy');
+            Artisan::call('composer:info', ['package' => 'tightenco/ziggy']);
             Config::set('ziggy-version', Artisan::output());
         } catch (\Throwable $e) {
             //

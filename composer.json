@@ -10,9 +10,9 @@
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "5.8.*",
+        "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "tightenco/ziggy": "dev-master#e2b090d3b27f844972d5be7e58796aaa3f8363bf"
+        "tightenco/ziggy": "^0.8.1"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
