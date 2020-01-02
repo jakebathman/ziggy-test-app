@@ -23,9 +23,9 @@
     @routes
 </head>
 <body>
-    <div id="app">
-
+    <div id="app" class="mx-4">
         <main class="py-4">
+            Laravel vesion: {{ App::VERSION() }}
             @yield('content')
             <div id="ziggyInfo" style=" padding:24px;">
                 <h2 style="margin-bottom:1em;">Route name: <strong>{{ \Request::route()->getName() }}</strong></h2>
