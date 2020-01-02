@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa6346498267e62499fea7bb2f619fde",
+    "content-hash": "b80335f9bc7458f8f5e019304826e0a5",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2860,16 +2860,16 @@
         },
         {
             "name": "tightenco/ziggy",
-            "version": "dev-master",
+            "version": "v0.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tightenco/ziggy.git",
-                "reference": "e2b090d3b27f844972d5be7e58796aaa3f8363bf"
+                "reference": "4c4b29bc658153f0771b0a145173ce83a7b6b885"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/ziggy/zipball/e2b090d3b27f844972d5be7e58796aaa3f8363bf",
-                "reference": "e2b090d3b27f844972d5be7e58796aaa3f8363bf",
+                "url": "https://api.github.com/repos/tightenco/ziggy/zipball/4c4b29bc658153f0771b0a145173ce83a7b6b885",
+                "reference": "4c4b29bc658153f0771b0a145173ce83a7b6b885",
                 "shasum": ""
             },
             "require": {
@@ -2898,16 +2898,16 @@
             ],
             "authors": [
                 {
-                    "name": "Matt Stauffer",
-                    "email": "matt@tighten.co"
-                },
-                {
                     "name": "Daniel Coulbourne",
                     "email": "daniel@tighten.co"
+                },
+                {
+                    "name": "Matt Stauffer",
+                    "email": "matt@tighten.co"
                 }
             ],
             "description": "Generates a Blade directive exporting all of your named Laravel routes. Also provides a nice route() helper function in JavaScript.",
-            "time": "2019-04-26T22:05:56+00:00"
+            "time": "2019-10-18T22:42:36+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -4779,9 +4779,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "tightenco/ziggy": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
