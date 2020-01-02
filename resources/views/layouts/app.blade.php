@@ -25,7 +25,8 @@
 <body>
     <div id="app" class="mx-4">
         <main class="py-4">
-            Laravel vesion: {{ App::VERSION() }}
+            <div class="text-muted"><span class="font-weight-bold">Laravel vesion:</span> {{ $laravelVersion }}</div>
+            <div class="text-muted"><span class="font-weight-bold">Ziggy version:</span> {{ $ziggyVersion }}</div>
             @yield('content')
             <div id="ziggyInfo" style=" padding:24px;">
                 <h2 style="margin-bottom:1em;">Route name: <strong>{{ \Request::route()->getName() }}</strong></h2>

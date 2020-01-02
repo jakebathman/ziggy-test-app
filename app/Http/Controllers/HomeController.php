@@ -2,17 +2,27 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Artisan;
 
 class HomeController extends Controller
 {
+    public $laravelVersion;
+    public $ziggyVersion;
+
     public function __construct()
     {
-        // $this->middleware('auth');
+        $this->laravelVersion = App::VERSION();
+
+        Artisan::call('composer:info tightenco/ziggy');
+        $this->ziggyVersion = Artisan::output();
     }
 
     public function index()
     {
-        return view('home');
+        return view('home', [
+            'laravelVersion' => $this->laravelVersion,
+            'ziggyVersion' => $this->ziggyVersion,
+        ]);
     }
 }
