@@ -31,10 +31,10 @@ return [
 
     'domain' => env('SESSION_DOMAIN', null),
 
-    'secure' => env('SESSION_SECURE_COOKIE', false),
+    'secure' => env('SESSION_SECURE_COOKIE', null),
 
     'http_only' => true,
 
-    'same_site' => null,
+    'same_site' => 'lax',
 
 ];
